@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "../css"
+		},
+		{
+			"path": "../img"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "../not"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../practica2"
+		},
+		{
+			"path": "../practica3"
+		},
+		{
+			"path": "../practica4"
+		},
+		{
+			"path": "../practica5"
+		},
+		{
+			"path": "../practica6"
+		},
+		{
+			"path": "../Proyecto final"
+		}
+	]
+}
