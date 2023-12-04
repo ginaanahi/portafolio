@@ -54,7 +54,7 @@
                         <h1 class="fw-bolder mb-1">Wearable to Prevent Accidents in the Kitchens</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
-                            <img class="img-fluid rounded-circle" width="50px" src="img/wearable.jpg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="img/pp.jpg" alt="..." />
                             <div class="ms-2">
                                 <div class="fw-bold">Gina Anahi Garcia Muñoz</div>
                                 <div class="text-muted">Ingeniería Biomédica</div>
@@ -73,7 +73,7 @@
             
                 <div class="container px-5">
                     <figure class="mb-4">
-                    <img class="img-fluid rounded" width="400px" src="img/sensores .jpg" alt="..." /></figure>
+                    <img class="img-fluid rounded" width="400px" src="img/wearable.jpg" alt="..." /></figure>
 
             <!-- Seccion de CONTENIDO de la Práctica-->
             <section>
@@ -94,28 +94,12 @@
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Un sensor es un dispositivo o instrumento que detecta o mide magnitudes físicas o químicas y convierte esta información en una señal que puede ser interpretada, 
-                            mostrada, almacenada o utilizada para controlar un proceso. 
-                            En otras palabras, un sensor es una interfaz entre el mundo físico y el mundo digital, permitiendo la captura de datos del entorno.
+                        <p class="fs-6 mb-4">For this project, we decided to create a wearable to help the people that works in the kitchen, so we design a device capable of measuring the distance between the kitchen staff, 
+                            temperature and gas within that space in order to reduce the risk of collisions, burns or accidents.
                             <p class="fs-6 mb-4"></p>
 
                             <p id="intro">
-                            <h2 class="fw-bolder mb-4 mt-5 fs-5" >- 30 Tipos de sensores -</h2>
-                        <p id="materiales">
-                            <p class="fs-6 mb-4"> En la siguiente tabla, se muestran algunos de los sensores que existen:
-                                <p class="fs-6 mb-4"></p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/sensores0.jpg"... /></figure>
-                        </p>
-                        <p class="fs-6 mb-4"></p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/sensores.jpg"... /></figure>
-                        </p>
-
-                        <p class="fs-6 mb-4"></p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/sensores2.jpg"... /></figure>
-                        </p><p class="fs-6 mb-4"></p>
-                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/sensores 3.jpg"... /></figure>
-                    </p>
-
+                           
 
 
 
@@ -132,7 +116,7 @@
                             DHT11 (temperature and humidity sensor)
                             ARD-350 (ultrasonic sensor).</p>   
                             <p class="fs-6 mb-4"> </p>∙ Leds</p>  
-                                                 
+                            <p class="fs-6 mb-4"> </p>∙ Oleds</p>              
                             <p class="fs-6 mb-4"> </p>∙ Push buttons</p>
                             <p class="fs-6 mb-4"> </p>∙ Attiny85 </p>
                             <p class="fs-6 mb-4"> </p>∙ Resistencias de 220 ohms</p>
@@ -150,10 +134,10 @@
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2> 
                                Para ralizar esta práctica se siguieron los pasos a continuación:
 
-                            <p class="fs-6 mb-4"> </p>∙Instalar librería Attiny</p>
-                            <p class="fs-6 mb-4"> </p>∙Arduino as ISP</p>
-                            <p class="fs-6 mb-4"> </p>∙Configurar tarjeta Attiny</p>
-                            <p class="fs-6 mb-4"> </p>∙Quemar bootloader</p>
+                            <p class="fs-6 mb-4"> </p>∙Hacer que los tres sensores funciones individualmente/p>
+                            <p class="fs-6 mb-4"> </p>∙Juntarlos con atitnys85 y oled </p>
+                            <p class="fs-6 mb-4"> </p>∙Diseño</p>
+                            <p class="fs-6 mb-4"> </p>∙PCB</p>
                             
                              
                             <p class="fs-6 mb-4">1. Sensor ultrasónico </p>
@@ -183,19 +167,9 @@
                                 <p id="diseño">
                               <p id="diseño"></p>
                                   <p id="diseño"></p>                        
-                              <p class="fs-6 mb-4">3. Attiny digital LOW</p>
-                               <p class="fs-6 mb-4">Código</p>
-                               <p class="fs-6 mb-4"></p>
-                               <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/attiny3.jpg"... /></figure>
-                                   </p>
-                                Video
-                          <p class="fs-6 mb-4"></p> 
-                            <figure class="mb-4" align="center"><video width="60%"  controls>
-                              <source src="video/attiny3.mp4" type="video/mp4">
-                             </video></p></figure>
                                <p id="diseño"> 
                             <p id="diseño"></p>
-                            <p class="fs-6 mb-4">4. Attiny digital delay </p>
+                            <p class="fs-6 mb-4">4. Sensor de temperatura </p>
                                <p class="fs-6 mb-4">Código</p>
                                <p class="fs-6 mb-4"></p>
                                <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/attiny4.jpg"... /></figure>
@@ -218,7 +192,17 @@
                               <source src="video/attiny5.mp4" type="video/mp4">
                              </video></p></figure>
                                <p id="diseño"> 
-                            <p id="diseño"></p>
+                            <p id="diseño"></p>  <p class="fs-6 mb-4">3. Attiny digital LOW</p>
+                               <p class="fs-6 mb-4">Código</p>
+                               <p class="fs-6 mb-4"></p>
+                               <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/attiny3.jpg"... /></figure>
+                                   </p>
+                                Video
+                          <p class="fs-6 mb-4"></p> 
+                            <figure class="mb-4" align="center"><video width="60%"  controls>
+                              <source src="video/attiny3.mp4" type="video/mp4">
+                             </video></p></figure>
+                            
                             
                                 
     
